@@ -22,7 +22,7 @@ buttons.map( button =>{
 
             case '=':
                 try{
-                    display.innerText = eval(display.innerText); //eval does the calculations for you when using the equals sign.
+                    display.innerText = eval(display.innerText); //eval does the calculations for you when using the equal sign.
                 }
                 catch{
                     display.innerText = 'Invalid Input';
